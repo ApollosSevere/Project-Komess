@@ -1,0 +1,1 @@
+1. Make "Section Header" in Filter components into 1 component!

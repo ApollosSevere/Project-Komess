@@ -1,0 +1,10 @@
+.col {
+    /* background-color: cadetblue; */
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+  .row {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }

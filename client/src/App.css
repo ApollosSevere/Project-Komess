@@ -1,0 +1,176 @@
+
+/* html {
+  height: 100%;
+} */
+
+/* Products Page */
+.main {
+  display: flex;
+  gap: 15px;
+  /* background-color: aqua; */
+}
+
+.layout-wrapper{
+  /* background-color: aqua; */
+  height: 100%;
+  /* padding: 0 20px; */
+  /* max-width: 80vw; */
+  margin: 0 auto;
+}
+
+.container-fluid {
+  /* max-width: 90%; */
+  max-width: 1300px;
+  margin: 0 auto;
+  /* background-color: brown; */
+}
+
+.page-topbar {
+  /* position: fixed; */
+  background-color: #2f374e;
+  
+  width: 100%;
+  /* z-index: 1002; */
+  /* background-color: #ffffff; */
+  -webkit-box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12);
+          box-shadow: 0 2px 4px rgba(15, 34, 58, 0.12); 
+}
+
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 auto; */
+  /* margin-left: 250px; */
+  /* width: 100%; */
+  height: 60px;
+  /* padding: 0 calc(1.25rem / 2); */
+  padding: 0 20px;
+  max-width: 90%;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding-top: 17px;
+ 
+}
+
+.topnav {
+    margin-top: 24px;
+    margin-bottom: -16px;
+    border-radius: 5px; 
+    height: 54px;
+    /* margin: 0 auto; */
+    background-color: #FFFFFF;
+    /* justify-content: center; */
+    /* display: flex; */
+    position: relative;
+    top:  15px;
+    box-shadow: 0 2px 4px rgb(15 34 58 / 12%);
+
+}
+
+
+
+.page-content {
+  padding: 50px 15px 0px 20px;
+  background-color: #F5F6F8;
+  height: 100%;
+}
+
+#categories-collapse{
+  /* background-color: violet; */
+  /* color:orange; */
+  padding: 10px;
+}
+
+.main-container-fluid{
+  padding: 1px 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 85vh;
+}
+
+
+.productBreadcrumb{
+  margin-bottom: 20px;
+}
+i {
+  color:black;
+}
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Colors !! */
+.colorsUl {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.mdi{
+  position: relative;
+  top: 3px;
+}
+.colorLabel{
+  display: flex;
+  align-items: center;
+}
+.colorTitle {
+  position: relative;
+  top: 3px;
+}
+.form-check-input {
+  position: relative;
+  top: 1px;
+}
+
+
+
+/* Customer Rating! */
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* font-weight: bold; */
+  font-weight: 450;
+}
+
+.form-check label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 3px;
+  gap: 3px;
+}
+
+.form-check .mdi{
+  position: relative;
+  top: 0px;
+}
+
+.form-check .mdi-star{
+  /* width: 10px;
+  height: 10px; */
+  font-size: 15px;
+}
+.crList{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+/* Discount */
+.discountBody .dis{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+.discountBody .mt-4{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
