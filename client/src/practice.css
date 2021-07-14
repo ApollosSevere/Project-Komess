@@ -29,10 +29,51 @@
 }
 .page-content{
     padding: 30px 10px;
-    background-color: lightblue;
 }
 
 .container-fluid {
     max-width: 93%;
     margin: 0 auto;
 }
+
+
+.pMain{
+    display: flex;
+    gap: 15px;
+}
+
+.secText{
+    /* font-weight: bold; */
+    font-weight: 700;
+    font-size: 14px;
+}
+.filterHeader{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+li {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: none;
+    padding: none;
+}
+
+i {
+    color: gray;
+    fill: gray;
+}
+
+.product-wishlist a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #f6f6f6;
+    line-height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    color: #adb5bd;
+}
+
